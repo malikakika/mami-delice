@@ -20,11 +20,11 @@ const Footer = () => {
           <h4 className="font-serifTitle text-xl text-white">Contact</h4>
 
           <p className="flex items-center gap-3 text-gray-300">
-            <FaPhoneAlt className="text-accent" /> +212 6 12 34 56 78
+            <FaPhoneAlt /> +212 6 12 34 56 78
           </p>
 
           <p className="flex items-center gap-3 text-gray-300">
-            <FaEnvelope className="text-accent" /> contact@mamidelice.ma
+            <FaEnvelope  /> contact@mamidelice.ma
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
             <a
               href="https://instagram.com"
               target="_blank"
-              className="text-gray-300 hover:text-accent transition"
+              className="text-gray-300  transition"
             >
               <FaInstagram />
             </a>
@@ -43,7 +43,7 @@ const Footer = () => {
             <a
               href="https://facebook.com"
               target="_blank"
-              className="text-gray-300 hover:text-accent transition"
+              className="text-gray-300 transition"
             >
               <FaFacebookF />
             </a>

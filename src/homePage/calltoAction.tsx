@@ -66,7 +66,7 @@ La passion de l’excellence, l’élégance dans chaque détail.       </h2>
       <div className="text-center mt-10">
         <a
           href="#contact"
-          className="px-8 py-3 bg-accent text-white rounded-full font-semibold text-lg shadow-lg  transition"
+            className="px-6 py-2 border border-white rounded-full text-base font-medium hover:bg-white hover:text-black transition"
         >
           Demander un devis
         </a>
