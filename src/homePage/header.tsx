@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import  logo from '../assets/mamiLogo.png'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,15 +9,16 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full text-white px-6 py-4  top-0 left-0 z-[100] ">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+<header className="w-full text-white px-6 py-0 pt-2 top-0 left-0 z-[100]
+  bg-gradient-to-b from-black via-black to-black/20">
+<div className="max-w-7xl mx-auto flex items-start justify-between">
 
           <div className="flex-1 flex justify-center">
             <div className="flex flex-col items-center">
               <img
-                src="/logo-mamidelice.png"
+                src={logo}
                 alt="Mami Délice"
-                className="h-12 w-auto"
+          className="w-64 h-auto"
               />
             </div>
           </div>
@@ -51,7 +53,7 @@ const Header = () => {
 
         <div className="flex flex-col items-center mt-20 gap-6 text-lg">
           <img
-            src="/logo-mamidelice.png"
+              src={logo}
             className="h-16 mb-4"
             alt="Mami Délice"
           />
